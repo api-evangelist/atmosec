@@ -1,22 +1,64 @@
 aid: atmosec
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atmosec.png
 name: AtmoSec
-description: AtmoSec is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'AtmoSec was an Israel-based SaaS security startup founded in January
+  2021 that built a platform for securing hyperconnected SaaS ecosystems. Its technology
+  discovered authorized and shadow SaaS applications, controlled risky SaaS-to-SaaS
+  and third-party OAuth app communication, detected and disconnected malicious apps,
+  remediated SaaS misconfigurations, and governed non-human identities (API keys,
+  OAuth apps, service accounts, and tokens) via native IAM APIs. Founded by former
+  Armis and Google executives and backed by Battery Ventures and Glilot Capital, AtmoSec
+  was acquired by Check Point Software Technologies in September 2023 and folded into
+  the Check Point Infinity / SASE platform for continuous SaaS posture management.
+  It no longer operates as a standalone company and publishes no public developer
+  API; atmosec.com now redirects into checkpoint.com.'
 url: https://raw.githubusercontent.com/api-evangelist/atmosec/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
+- glilot-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: check-point
+x-acquired-date: '2023-09'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- SaaS Security
+- Cybersecurity
+- Non-Human Identity
+- SaaS-to-SaaS
+- SaaS Security Posture Management
+- Acquired
+- Israel
 apis: []
+common:
+- type: Website
+  url: https://atmosec.checkpoint.com/
+- type: AcquisitionAnnouncement
+  url: https://www.checkpoint.com/press-releases/check-point-to-acquire-atmosec-an-innovative-saas-security-vendor-as-part-of-its-strategy-to-deliver-the-most-secure-sase-solution/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
